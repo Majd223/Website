@@ -196,3 +196,19 @@ ul{
     position: absolute;
     right: 70px;
 }
+
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    background-color: #20ff63;
+    margin-left: 2px;
+    animation: blink .6s linear infinite alternate;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
